@@ -1,0 +1,218 @@
+* {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+/* Home */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    font-size: 25px;
+    overflow: auto;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+a.tab:link {
+    color: white;
+}
+
+a.tab:visited {
+    color: white;
+}
+
+a.tab:hover {
+    color: orange;
+}
+
+#home-link {
+    /* border: 1px solid white; */
+}
+
+#schedule-link {
+    /* border: 1px solid white; */
+}
+
+#episodes-link {
+    /* border: 1px solid white; */
+}
+
+#contact-link {
+    /* border: 1px solid white; */
+}
+
+.divider {
+    color: white;
+    font-size: 30px;
+}
+
+main {
+    flex: 1;
+    overflow: auto;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 2%;
+}
+
+
+.home-carousel {
+    width: auto;
+    height: auto;
+}
+
+.carousel-div {
+    text-align: center;
+}
+
+.carousel-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#re-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.home-episode {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.home-episode-title {
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.player {
+
+}
+
+a.download:link {
+    color: black;
+}
+
+a.download:visited {
+    color: black;
+}
+
+a.download:hover {
+    color: blue;
+}
+
+.download {
+    margin-top: 1%;
+    margin-left: 6%;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    /* overflow: auto; */
+}
+
+.social-link {
+    height: auto;
+    width: 35px;
+}
+
+#facebook {
+
+}
+
+#instagram {
+
+}
+
+#twitter {
+
+}
+
+#patreon {
+
+}
+
+/* Schedule */
+
+#schedule {
+    text-align: center;
+}
+
+#cal-intro {
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#cal-holder {
+    margin-top: 5%;
+    width: 500px;
+    height: auto;
+}
+
+/* Episodes */
+
+.episode-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.episode-player {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        font-size: 18px;
+    }
+    .tab {
+        margin-top: 5px;
+    }
+    #cal-holder {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        font-size: 15px;
+    }
+    #main-title {
+        font-size: 50px;
+    }
+    #cal-holder {
+        width: 300px;
+    }
+}
