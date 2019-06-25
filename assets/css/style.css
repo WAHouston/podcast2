@@ -216,3 +216,56 @@ footer {
         width: 300px;
     }
 }
+
+/*Contact*/
+
+#contact-title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2%;
+}
+
+.error {
+    color: red;
+}
+
+#contact-body {
+    width: 33%;
+    margin: 50px auto 0px auto;
+    padding: 20px 20px 45px 20px;
+    border: 1px solid black;
+}
+
+#error-key {
+    text-align: right;
+}
+
+.contact-label {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.contact-input {
+    width: 100%;
+}
+
+#contact-submit {
+    float: right;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+@media screen and (max-width: 350px) {
+    #contact-body {
+        padding: 20px 7px 40px 2px;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    #contact-body {
+        width: 300px;
+    }
+}

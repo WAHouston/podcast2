@@ -1,0 +1,13 @@
+{
+    "name": "will/phppodcast",
+    "authors": [
+        {
+            "name": "Will Houston",
+            "email": "wandrewhouston@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^3.3",
+        "sendgrid/sendgrid": "^7.3"
+    }
+}
