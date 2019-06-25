@@ -130,13 +130,23 @@ footer {
     text-align: center;
     background: black;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     /* overflow: auto; */
+}
+
+#social {
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .social-link {
     height: auto;
     width: 35px;
+}
+
+#copyright {
+    color: white;
+    font-size: 15px;
 }
 
 #facebook {
