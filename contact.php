@@ -43,8 +43,8 @@ require 'header.php';
 
             if ($nameErr === '' && $emailErr === '' && $messageErr === '') {
                 require 'vendor/autoload.php';
-                $dotenv = Dotenv\Dotenv::create(__DIR__ . '/');
-                $dotenv->load();
+                // $dotenv = Dotenv\Dotenv::create(__DIR__);
+                // $dotenv->load();
                 $composed = new \SendGrid\Mail\Mail(); 
                 $composed->setFrom($email, $name);
                 $composed->setSubject($subject);
