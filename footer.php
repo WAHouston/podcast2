@@ -1,9 +1,10 @@
 <footer>
     <div id='social'>
-        <a id="" href=""><img class="social-link" src="assets/images/facebooklogo.png" alt="Parker's Podcast Facebook Page" /></a>
-        <a id="" href=""><img class="social-link" src="assets/images/instagramlogo.png" alt="Parker's Podcast Facebook Page" /></a>
-        <a id="" href=""><img class="social-link" src="assets/images/twitterlogo.png" alt="Parker's Podcast Facebook Page" /></a>
-        <a id="" href=""><img class="social-link" src="assets/images/patreonlogo.jpg" alt="Parker's Podcast Facebook Page" /></a>
+        <a id="" href="" target="_blank"><img class="social-link" src="assets/images/youtubelogo.jpg" alt="Parker's Podcast Youtube Page" /></a>
+        <a id="" href="" target="_blank"><img class="social-link" src="assets/images/facebooklogo.png" alt="Parker's Podcast Facebook Page" /></a>
+        <a id="" href="https://www.instagram.com/lasagnaboiz/?hl=en" target="_blank"><img class="social-link" src="assets/images/instagramlogo.png" alt="Parker's Podcast Instagram Page" /></a>
+        <a id="" href="https://twitter.com/boizlasagna" target="_blank"><img class="social-link" src="assets/images/twitterlogo.png" alt="Parker's Podcast Twitter Page" /></a>
+        <a id="" href="" target="_blank"><img class="social-link" src="assets/images/patreonlogo.jpg" alt="Parker's Podcast Patreon Page" /></a>
     <div>
     <p id='copyright'>&copy;Copyright 2019 William A Houston</p>
 </footer>
