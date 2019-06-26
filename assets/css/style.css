@@ -135,6 +135,7 @@ footer {
 }
 
 #social {
+    padding-top: 5px;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -270,6 +271,7 @@ footer {
 
 @media screen and (max-width: 350px) {
     #contact-body {
+        margin: 20px auto 0px auto;
         padding: 20px 7px 40px 2px;
     }
 }
